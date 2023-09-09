@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "build/**", "use": "@vercel/static" }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "/build/$1" }
+  ],
+  "env": {
+    "NPM_BUILD": "npm install",
+    "YARN_BUILD": "yarn install"
+  },
+  "scripts": {
+    "build": "${NPM_BUILD || YARN_BUILD}"
+  }
+}

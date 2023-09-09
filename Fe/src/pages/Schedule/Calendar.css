@@ -1,0 +1,26 @@
+.event-calendar {
+    padding: 20px;
+  }
+  
+  .calendar {
+    margin-top: 20px;
+  }
+  
+  .calendar-event {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f5f5f5;
+  }
+  
+  .calendar-event strong {
+    font-weight: bold;
+  }
+  
+  .calendar-event button {
+    margin-left: 10px;
+  }
+  

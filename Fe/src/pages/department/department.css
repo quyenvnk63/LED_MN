@@ -1,0 +1,84 @@
+.department {
+  flex: 4;
+  display: flex; /* Add this property to ensure the container expands */
+  flex-direction: column; /* Set the container as a column layout */
+}
+  .departmentForm {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .departmentItem {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 20px;
+  }
+  
+  .departmentItem > label {
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(151, 150, 150);
+  }
+  
+  .departmentItem > input {
+    height: 20px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+  }
+  
+  
+  .departmentSelect {
+    height: 40px;
+    border-radius: 5px;
+  }
+  
+  .departmentButton {
+    width: 200px;
+    border: none;
+    background-color: darkblue;
+    color: white;
+    padding: 7px 10px;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+  }
+  
+
+  .departmentList {
+    flex: 1; /* Adjust the flex value according to your layout needs */
+    display: flex; /* Add this property to ensure the container expands */
+  }
+  
+  /* .departmentListUser {
+    display: flex;
+    align-items: center;
+  }
+  
+  .departmentListImg {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  
+  .departmentListEdit {
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: #3bb077;
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+  
+  .departmentListDelete {
+    color: red;
+    cursor: pointer;
+  } */
+  

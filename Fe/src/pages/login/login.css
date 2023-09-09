@@ -1,0 +1,409 @@
+@font-face { 
+  font-family:Poppins-Regular;
+  src:url(https://colorlib.com/etc/lf/Login_v15/fonts/poppins/Poppins-Regular.ttf);
+} 
+@font-face { 
+  font-family:Poppins-Bold;
+  src:url(https://colorlib.com/etc/lf/Login_v15/fonts/poppins/Poppins-Bold.ttf);
+} 
+@font-face { 
+  font-family:'FontAwesome';
+  src:url('https://colorlib.com/etc/lf/Login_v15/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.eot?v=4.7.0');
+  src:url('https://colorlib.com/etc/lf/Login_v15/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'),url('https://colorlib.com/etc/lf/Login_v15/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'),url('https://colorlib.com/etc/lf/Login_v15/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'),url('https://colorlib.com/etc/lf/Login_v15/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'),url('https://colorlib.com/etc/lf/Login_v15/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+  font-weight:normal;
+  font-style:normal;
+} 
+* { 
+    box-sizing:  border-box;
+    margin: 0; 
+    padding: 0; 
+} 
+
+.limiter { 
+    width: 100%; 
+    margin: 0 auto;
+} 
+
+body { 
+    margin:  0; 
+    font-family:  Poppins-Regular,sans-serif;
+    font-size:  1rem; 
+    font-weight:  400; 
+    line-height:  1.5; 
+    color:  #212529; 
+    background-color:  #fff;
+    height: 100%; 
+} 
+
+html { 
+    box-sizing:  border-box; 
+    font-family:  Poppins-Regular,sans-serif;
+    line-height:  1.15; 
+    -webkit-text-size-adjust:  100%; 
+    -ms-text-size-adjust:  100%; 
+    -ms-overflow-style:  scrollbar; 
+    -webkit-tap-highlight-color:  transparent;
+    height: 100%; 
+} 
+
+.container-login100 { 
+    width: 100%; 
+    min-height: 100vh; 
+    display: -webkit-box; 
+    display: -webkit-flex; 
+    display: -moz-box; 
+    display: -ms-flexbox; 
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 15px; 
+    background: #ebeeef;
+} 
+
+*,:after,:before { 
+    box-sizing: inherit;
+} 
+
+.wrap-login100 { 
+    width: 670px; 
+    background: #fff; 
+    border-radius: 10px; 
+    overflow: hidden; 
+    position: relative;
+} 
+
+.login100-form-title { 
+    width: 100%; 
+    position: relative; 
+    z-index: 1; 
+    display: -webkit-box; 
+    display: -webkit-flex; 
+    display: -moz-box; 
+    display: -ms-flexbox; 
+    display: flex; 
+    flex-wrap: wrap; 
+    flex-direction: column; 
+    align-items: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center; 
+    padding: 70px 15px 74px; 
+    background-repeat-x: no-repeat; 
+    background-repeat-y: no-repeat;
+} 
+
+.login100-form-title:before { 
+    content: ""; 
+    display: block; 
+    position: absolute; 
+    z-index: -1; 
+    width: 100%; 
+    height: 100%; 
+    top: 0; 
+    left: 0; 
+    background-color: rgba(54,84,99,.7);
+} 
+
+.login100-form { 
+    width: 100%; 
+    display: -webkit-box; 
+    display: -webkit-flex; 
+    display: -moz-box; 
+    display: -ms-flexbox; 
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    padding: 43px 88px 93px 190px;
+} 
+
+.login100-form-title-1 { 
+    font-family: Poppins-Bold; 
+    font-size: 30px; 
+    color: #fff; 
+    text-transform: uppercase; 
+    line-height: 1.2; 
+    text-align: center;
+} 
+
+.m-b-26 { 
+    margin-bottom: 26px;
+} 
+
+.wrap-input100 { 
+    width: 100%; 
+    position: relative; 
+    border-bottom: 1px solid #b2b2b2;
+} 
+
+.validate-input { 
+    position: relative;
+} 
+
+.m-b-18 { 
+    margin-bottom: 18px;
+} 
+
+.p-b-30 { 
+    padding-bottom: 30px;
+} 
+
+.w-full { 
+    width: 100%;
+} 
+
+.flex-sb-m { 
+    display: -webkit-box; 
+    display: -webkit-flex; 
+    display: -moz-box; 
+    display: -ms-flexbox; 
+    display: flex; 
+    justify-content: space-between; 
+    -ms-align-items: center; 
+    align-items: center;
+} 
+
+.container-login100-form-btn { 
+    width: 100%; 
+    display: -webkit-box; 
+    display: -webkit-flex; 
+    display: -moz-box; 
+    display: -ms-flexbox; 
+    display: flex; 
+    flex-wrap: wrap;
+} 
+
+.label-input100 { 
+    font-family: Poppins-Regular; 
+    font-size: 15px; 
+    color: gray; 
+    line-height: 1.2; 
+    text-align: right; 
+    position: absolute; 
+    top: 14px; 
+    left: -105px; 
+    width: 80px;
+} 
+
+input { 
+    -ms-touch-action:    manipulation; 
+    touch-action:    manipulation;
+    margin:   0; 
+    font-family:   inherit; 
+    font-size:   inherit; 
+    line-height:   inherit;
+    overflow:  visible;
+    outline: none; 
+    border: none;
+} 
+
+.input100 { 
+    font-family: Poppins-Regular; 
+    font-size: 15px; 
+    color: #555; 
+    line-height: 1.2; 
+    display: block; 
+    width: 100%; 
+    background: 0 0; 
+    padding: 0 5px;
+} 
+
+input.input100 { 
+    height: 45px;
+} 
+
+.focus-input100 { 
+    position: absolute; 
+    display: block; 
+    width: 100%; 
+    height: 100%; 
+    top: 0; 
+    left: 0; 
+    pointer-events: none;
+} 
+
+.focus-input100:before { 
+    content: ""; 
+    display: block; 
+    position: absolute; 
+    bottom: -1px; 
+    left: 0; 
+    width: 0; 
+    height: 1px; 
+    -webkit-transition: all .6s; 
+    -o-transition: all .6s; 
+    -moz-transition: all .6s; 
+    transition: all .6s; 
+    background: #57b846;
+} 
+
+button { 
+    -ms-touch-action:      manipulation; 
+    touch-action:      manipulation;
+    margin:     0; 
+    font-family:     inherit; 
+    font-size:     inherit; 
+    line-height:     inherit;
+    overflow:    visible;
+    text-transform:   none;
+    -webkit-appearance:  button;
+    outline: none!important; 
+    border: none; 
+    background: 0 0;
+} 
+
+.login100-form-btn { 
+    display: -webkit-box; 
+    display: -webkit-flex; 
+    display: -moz-box; 
+    display: -ms-flexbox; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 0 20px; 
+    min-width: 160px; 
+    height: 50px; 
+    background-color: #57b846; 
+    border-radius: 25px; 
+    font-family: Poppins-Regular; 
+    font-size: 16px; 
+    color: #fff; 
+    line-height: 1.2; 
+    -webkit-transition: all .4s; 
+    -o-transition: all .4s; 
+    -moz-transition: all .4s; 
+    transition: all .4s;
+} 
+
+button:hover { 
+    cursor: pointer;
+} 
+
+.login100-form-btn:hover { 
+    background-color: #333;
+} 
+
+.input-checkbox100 { 
+    display: none;
+} 
+
+input[type="checkbox"] { 
+    box-sizing: border-box; 
+    padding: 0;
+} 
+
+label { 
+    display:  block; 
+    -ms-touch-action:   manipulation; 
+    touch-action:   manipulation;
+    margin-bottom:  .5rem;
+    margin: 0;
+} 
+
+.label-checkbox100 { 
+    font-family: Poppins-Regular; 
+    font-size: 13px; 
+    color: #999; 
+    line-height: 1.4; 
+    display: block; 
+    position: relative; 
+    padding-left: 26px; 
+    cursor: pointer;
+} 
+
+.label-checkbox100:before { 
+    content: "\f00c"; 
+    font-family: FontAwesome; 
+    font-size: 13px; 
+    color: transparent; 
+    display: -webkit-box; 
+    display: -webkit-flex; 
+    display: -moz-box; 
+    display: -ms-flexbox; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    position: absolute; 
+    width: 18px; 
+    height: 18px; 
+    border-radius: 2px; 
+    background: #fff; 
+    border: 1px solid #e6e6e6; 
+    left: 0; 
+    top: 50%; 
+    -webkit-transform: translateY(-50%); 
+    -moz-transform: translateY(-50%); 
+    -ms-transform: translateY(-50%); 
+    -o-transform: translateY(-50%); 
+    transform: translateY(-50%);
+} 
+
+.input-checkbox100:checked + .label-checkbox100:before  { 
+    color: #57b846;
+} 
+
+a { 
+    color:  #666; 
+    text-decoration:   none; 
+    background-color:   transparent; 
+    -webkit-text-decoration-skip:   objects;
+    -ms-touch-action:  manipulation; 
+    touch-action:  manipulation;
+    font-family: Poppins-Regular; 
+    font-size: 14px; 
+    line-height: 1.7; 
+    margin: 0; 
+    transition: all .4s; 
+    -webkit-transition: all .4s; 
+    -o-transition: all .4s; 
+    -moz-transition: all .4s;
+} 
+
+.txt1 { 
+    font-family: Poppins-Regular; 
+    font-size: 13px; 
+    line-height: 1.4; 
+    color: #999;
+} 
+
+a:hover { 
+    color:  #57b846;
+    text-decoration:  none; 
+} 
+
+
+/* These were inline style tags. Uses id+class to override almost everything */
+#style-fgjJw.style-fgjJw {  
+   background-image: url(https://images.unsplash.com/photo-1432821596592-e2c18b78144f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bG9naW58ZW58MHx8MHx8fDA%3D&w=1000&q=80);  
+}  
+
+
+.error-message {
+    color: #ba3939;
+    /* background: #ffe0e0; */
+    /* border: 1px solid #a33a3a; */
+}
+.success-message{
+    color: #57b846;
+}
+
+.info {
+    /* border: 1px solid; */
+	margin: 0px 0px;
+	padding: 15px 10px 15px 50px;    
+	background-repeat: no-repeat;
+	background-position: 10px center;
+    font-size: 13px;
+}
+
+.error-message {
+    color: #9F6000;
+    /* background-color: #FEEFB3; */
+    background-image: url('https://i.imgur.com/Z8q7ww7.png');
+}
+
+.success-message {
+    color: #4F8A10;
+    /* background-color: #DFF2BF; */
+    background-image: url('https://i.imgur.com/Q9BGTuy.png');
+}

@@ -1,0 +1,37 @@
+/* CSS cho container chứa hộp tìm kiếm */
+.container-1 {
+    /* position: relative; */
+    /* margin: 0 auto; */
+    max-width: 400px;
+    /* justify-content: flex-start;  */
+    border: 2px solid #ccc;
+    justify-content: flex-start; 
+    margin-bottom: 10px;
+    
+  }
+  
+  /* CSS cho biểu tượng tìm kiếm */
+  .icon {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    color: #999;
+  }
+  
+  /* CSS cho ô nhập liệu tìm kiếm */
+  input[type="text"] {
+    width: 100%;
+    padding: 10px 30px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+  
+  /* CSS cho hiệu ứng khi focus vào ô nhập liệu */
+  input[type="text"]:focus {
+    border-color: #2196F3;
+  }
+  

@@ -1,0 +1,67 @@
+{
+  "name": "lamaadmin",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.4.2",
+    "@material-ui/core": "^4.11.4",
+    "@material-ui/data-grid": "^4.0.0-alpha.29",
+    "@material-ui/icons": "^4.11.2",
+    "@reduxjs/toolkit": "^1.9.5",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "axios": "^1.4.0",
+    "babel-eslint": "^10.1.0",
+    "gifshot": "^0.4.5",
+    "js-cookie": "^3.0.5",
+    "jwt-decode": "^3.1.2",
+    "node-fetch": "^3.3.1",
+    "prettier": "^2.7.1",
+    "prettier-eslint-cli": "^6.0.1",
+    "react": "^17.0.2",
+    "react-big-calendar": "^1.8.2",
+    "react-dom": "^17.0.2",
+    "react-intersection-observer": "^9.5.2",
+    "react-redux": "^8.1.1",
+    "react-router-dom": "^6.14.0",
+    "react-scripts": "4.0.3",
+    "recharts": "^2.0.9",
+    "redux-injectors": "^2.1.0",
+    "redux-saga": "^1.2.3",
+    "sweetalert": "^2.1.2",
+    "typescript": "^5.1.3",
+    "vercel": "^31.2.0",
+    "web-vitals": "^1.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "eslint .",
+    "format": "prettier . --write"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/node-fetch": "^2.6.4",
+    "yarn": "^1.22.19"
+  }
+}

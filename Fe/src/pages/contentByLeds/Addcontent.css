@@ -1,0 +1,29 @@
+
+    .selected-image-container {
+      position: relative;
+      display: inline-block;
+    }
+    
+    .selected-image {
+      margin-top: 12px;
+      max-width: 100%;
+      border-radius: 4px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    }
+    
+    .delete-button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      padding: 4px;
+      border-radius: 10%;
+      background-color: blue;
+      color: white;
+      font-size: 10px;
+      cursor: pointer;
+      display: none;
+    }
+    
+    .selected-image-container:hover .delete-button {
+      display: block;
+    }
